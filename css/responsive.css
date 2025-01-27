@@ -820,5 +820,58 @@
             .s4.active .bgitem{
                 animation-play-state: paused !important;
             }
+            .s4_main {
+                width: 180rem;
+                height: 70rem;
+                position: absolute;
+                top: 15%; left: 50%;
+                transform: translateX(-50%);
+                z-index: 2;
+                transition: all .7s;
+                transition-delay: .9s;
+                opacity: 1;
+            }
+            .s5_main {
+                width: 145rem;
+                position: absolute;
+                top: 15%; left: 50%;
+                transform: translateX(-50%);
+                display: flex;
+                flex-direction: column;
+                gap: 10rem;
+                opacity: 1;
+                transition: all .7s;
+                transition-delay: .9s;
+            }
+            .s6_main {
+                width: 140rem;
+                height: 80rem;
+                position: absolute;
+                top: 5%; left: 50%;
+                transform: translateX(-50%);
+                z-index: 2;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+               justify-content: space-around;
+            }
+            .c_cont{
+                width: 100rem;
+                perspective: 5000px;
+                display: flex;
+               align-items: center;
+               text-align: center;
+               position: relative;
+               transform: translateY(0rem);
+               transition: all .7s;
+               transition-delay: .9s;
+               opacity: 1;
+            }
+            .c_cont2{
+                transform: translateY(0rem);
+               transition: all .7s;
+               transition-delay: 1.1s;
+               opacity: 1; 
+            }
             
     }
