@@ -151,7 +151,7 @@ header.on {
     transform:rotate(-135deg);
 }
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .s1 {
