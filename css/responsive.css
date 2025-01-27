@@ -509,6 +509,7 @@
         opacity: 0.5;
         z-index: 1;
         background: url('../images/bgitems/puzzle1.png')no-repeat center center/cover;
+        animation-play-state: paused !important;
     }
     .bgi2 {
         width: 17.7rem;
@@ -520,6 +521,7 @@
         opacity: 0.5;
         z-index: 0;
         background: url('../images/bgitems/puzzle2.png')no-repeat center center/100%;
+        animation-play-state: paused !important;
     }
     .bgi3 {
         width: 17.7rem;
@@ -531,6 +533,7 @@
         opacity: 0.5;
         z-index: 0;
         background: url('../images/bgitems/puzzle3.png')no-repeat center center/100%; 
+        animation-play-state: paused !important;
     }
     .bgi4 {
         width: 15rem;
@@ -542,6 +545,7 @@
         opacity: 0.5;
         z-index: 0;
         background: url('../images/bgitems/puzzle4.png')no-repeat center center/100%; 
+        animation-play-state: paused !important;
     }
     .bgi5 {
         width: 48rem;
@@ -553,6 +557,7 @@
         opacity:10%;
         z-index: 0;
         background: url('../images/bgitems/puzzle5.png')no-repeat center center/100%; 
+        animation-play-state: paused !important;
     }
     .bgi6 {
         width: 17.7rem;
@@ -564,6 +569,7 @@
         opacity: 0.5;
         z-index: 0;
         background: url('../images/bgitems/puzzle6.png')no-repeat center center/100%; 
+        animation-play-state: paused !important;
     }
     .s5bgitem1 {
         width: 30rem;
@@ -720,7 +726,7 @@
             opacity: 0.5;
             z-index: 1;
             background: url('../images/bgitems/puzzle1.png')no-repeat center center/cover;
-            animation-play-state: paused;
+            animation-play-state: paused !important;
         }
         .bgi2 {
             width: 17.7rem;
@@ -732,7 +738,7 @@
             opacity: 0.5;
             z-index: 0;
             background: url('../images/bgitems/puzzle2.png')no-repeat center center/100%;
-            animation-play-state: paused;
+            animation-play-state: paused !important;
         }
         .bgi3 {
             width: 17.7rem;
@@ -744,7 +750,7 @@
             opacity: 0.5;
             z-index: 0;
             background: url('../images/bgitems/puzzle3.png')no-repeat center center/100%; 
-            animation-play-state: paused;
+            animation-play-state: paused !important;
         }
         .bgi4 {
             width: 15rem;
@@ -756,7 +762,7 @@
             opacity: 0.5;
             z-index: 0;
             background: url('../images/bgitems/puzzle4.png')no-repeat center center/100%; 
-            animation-play-state: paused;
+            animation-play-state: paused !important;
         }
         .bgi5 {
             width: 48rem;
@@ -768,7 +774,7 @@
             opacity:10%;
             z-index: 0;
             background: url('../images/bgitems/puzzle5.png')no-repeat center center/100%; 
-            animation-play-state: paused;
+            animation-play-state: paused !important;
         }
         .bgi6 {
             width: 17.7rem;
@@ -780,7 +786,7 @@
             opacity: 0.5;
             z-index: 0;
             background: url('../images/bgitems/puzzle6.png')no-repeat center center/100%; 
-            animation-play-state: paused;
+            animation-play-state: paused !important;
         }
         .s5bgitem1 {
             width: 30rem;
