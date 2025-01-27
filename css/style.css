@@ -644,71 +644,7 @@ gap: 1rem;
     color: #da6334;
     border: 0.1rem solid #da6334 ; 
 }
-/* .letf
-.mitem1 {
-    width: 34.5rem;
-    height: 43.6rem;
-    position: absolute;
-    top: 0%;
-    left: 10%;
-    cursor: pointer;
-    background: url('../images/mainitems/budsweiser.png')no-repeat center center/cover;
-    filter: grayscale(1);
-    transition: all .3s;
-}
 
-.mitem1:hover {
-    filter: grayscale(0);
-    transform: perspective(200px) scale(1.1);
-}
-
-.mitem2 {
-    width: 41.2rem;
-    height: 44rem;
-    position: absolute;
-    top: 5%;
-    right: 0%;
-    background: url('../images/mainitems/twosome.png')no-repeat center center/100%;
-    filter: grayscale(1);
-    transition: all .3s;
-}
-
-.mitem2:hover {
-    filter: grayscale(0);
-    transform: perspective(200px) scale(1.1);
-}
-
-.mitem3 {
-    width: 51.6rem;
-    height: 43.4rem;
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    background: url('../images/mainitems/jordan_change.png')no-repeat center center/contain;
-    filter: grayscale(1);
-    transition: all .3s;
-}
-
-.mitem3:hover {
-    filter: grayscale(0);
-    transform: perspective(200px) scale(1.1);
-}
-
-.mitem4 {
-    width: 26rem;
-    height: 26rem;
-    position: absolute;
-    bottom: 8%;
-    right: 6%;
-    background: url('../images/mainitems/riot.png')no-repeat center center/cover;
-    filter: grayscale(1);
-    transition: all .3s;
-}
-
-.mitem4:hover {
-    filter: grayscale(0);
-    transform: perspective(200px) scale(1.1);
-} */
 
 .mtitle {
     height: 47.5rem;
