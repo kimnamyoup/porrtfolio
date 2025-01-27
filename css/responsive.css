@@ -1,0 +1,521 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1440px){
+    html{
+        font-size: 7px;
+    }
+    .header_in {
+        justify-content: space-between;
+    }
+    .mtitle{
+        margin-right: 10rem;
+    }
+    .s1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .s1sb{
+        transform: translateZ(3rem);   
+    }
+    
+    .s1sb1-1{
+        transform: translateZ(3rem);   
+
+    }
+    .s1sb1-2{
+        transform: translateZ(3rem);   
+    }
+    .left2{
+        width: 15rem;
+        height: 15.1rem;
+        background: url('../images/puzzle/left2.png')no-repeat center center/cover;
+        position: absolute;
+        top: 31.3rem; left: 1rem;
+        animation: l2 2s linear forwards paused;
+        
+    }
+    @keyframes l2 {
+        0%{
+            top: 31.5rem; left: 1rem;
+        }
+        100%{
+            top: 15.9rem; left: 1rem;  
+        }
+    }
+    @keyframes l2b {
+        0%{
+            top: 16rem; left: 1rem; 
+        }
+        100%{
+            top: 31.4rem; left: 1rem;  
+        }
+    }
+    .mid2{
+        width: 18rem;
+        height: 20.6rem;
+        background: url('../images/puzzle/mid2.png')no-repeat center center/100%;
+        position: absolute;
+        top: 43rem; left: 16rem;
+        animation: m2 2s linear forwards paused;
+       animation-delay: 0.2s;
+    }
+    @keyframes m2 {
+        0%{
+            top: 43rem; left: 16rem;
+        }
+        50%{
+            top: 30rem; left: 16rem;
+        }
+        100%{
+            top: 28.2rem; left: 1rem;
+        }
+    }
+    .right5{
+        width: 15rem;
+        height: 20.7rem;
+        background: url('../images/puzzle/right5.png')no-repeat center center/cover;
+        position: absolute;
+        top: 13.5rem; left: 76rem;
+        animation: r5 3s linear  both  paused;
+        
+    }
+    @keyframes r5 {
+        0%{
+            top: 13.7rem; left: 76.3rem;
+        }
+        50%{
+            top: 28.4rem; left: 76rem;
+        }
+        100%{
+            top: 28.4rem; left: 31rem;
+        }
+    }
+    .right7{
+        width: 15rem;
+        height: 17.8rem;
+        background: url('../images/puzzle/right7.png')no-repeat center center/cover;
+        position: absolute;
+        top: 58.5rem; left: 61rem;
+        animation: r7 2s linear  both  paused;
+    }
+    @keyframes r7 {
+        0%{
+            top: 58.4rem; left: 61.2rem;
+        }
+        100%{
+            top: 58.3rem;
+        left: 31rem;
+        }
+    }
+    @keyframes r7b {
+        0%{
+            top: 58.2rem;
+        left: 31rem;
+        }
+        100%{
+            top: 58.6rem; left: 61.2rem;
+        }
+    }
+}
+
+    @media screen and (max-width: 1024px){
+        html{
+            font-size: 5px;
+        }
+        .s4{
+            margin-bottom: 0;
+        }
+        .s4_main{
+            margin-left: 0;
+            top: 50%;
+        }
+        .cidx_items{
+            flex-wrap: wrap;
+        }
+        .left2{
+            width: 15rem;
+            height: 15.1rem;
+            background: url('../images/puzzle/left2.png')no-repeat center center/cover;
+            position: absolute;
+            top: 31.3rem; left: 1rem;
+            animation: l2 2s linear forwards paused;
+            
+        }
+        @keyframes l2 {
+            0%{
+                top: 31.5rem; left: 1rem;
+            }
+            100%{
+                top: 15.8rem; left: 1rem;  
+            }
+        }
+        @keyframes l2b {
+            0%{
+                top: 16rem; left: 1rem; 
+            }
+            100%{
+                top: 31.4rem; left: 1rem;  
+            }
+        }
+        .mid2{
+            width: 18rem;
+            height: 20.6rem;
+            background: url('../images/puzzle/mid2.png')no-repeat center center/100%;
+            position: absolute;
+            top: 43rem; left: 16rem;
+            animation: m2 2s linear forwards paused;
+           animation-delay: 0.2s;
+        }
+        @keyframes m2 {
+            0%{
+                top: 43rem; left: 16rem;
+            }
+            50%{
+                top: 30rem; left: 16rem;
+            }
+            100%{
+                top: 28.2rem; left: 1rem;
+            }
+        }
+        .mid3{
+            width: 18rem;
+            height: 18rem;
+            background: url('../images/puzzle/mid3.png')no-repeat center center/cover;
+            position: absolute;
+            top: 58.3rem; left: 31rem;
+            animation: m3 2s linear forwards paused;
+            
+        }
+        @keyframes m3 {
+            0%{
+                top: 58.4rem; left: 31rem;
+            }
+            100%{
+                top: 58rem; left: 16rem;
+            }
+        }
+        .right2{
+            width: 17.8rem;
+            height: 15.2rem;
+            background: url('../images/puzzle/right2.png')no-repeat center center/cover;
+            position: absolute;
+            top: 315px; left:585px;
+            animation: r2 2s linear forwards paused;
+            
+        }
+        @keyframes r2 {
+            0%{
+                top: 31.5rem; left:58.5rem; 
+            }
+            50%{
+                top: 16.1rem; left:58.5rem;
+            }
+            100%{
+                top: 16rem;  left: 28.1rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        html{
+            font-size: 4px;
+            overflow: hidden;
+        }
+        .dep1{
+            display: none;
+        }
+        .all_menu{
+            display: block;
+        }
+        .circle{
+            display: none;
+        }
+        .s1 .fa-arrow-down{
+            display: none;
+        }
+        .left2{
+            width: 15rem;
+            height: 15.1rem;
+            background: url('../images/puzzle/left2.png')no-repeat center center/cover;
+            position: absolute;
+            top: 31.3rem; left: 1rem;
+            animation: l2 2s linear forwards paused;
+            
+        }
+        @keyframes l2 {
+            0%{
+                top: 31.5rem; left: 1rem;
+            }
+            100%{
+                top: 16.1rem; left: 1rem;  
+            }
+        }
+        .mid5{
+            width: 15.1rem;
+            height: 18.2rem;
+            background: url('../images/puzzle/mid5.png')no-repeat center center/cover;
+            position: absolute;
+            top: 1rem; left: 31rem;
+            animation: m5 1s linear forwards paused;
+            
+        }
+        @keyframes m5 {
+            0%{
+                top: 1rem; left: 31rem;
+            }
+            100%{
+                top: 1rem; left: 15.8rem; 
+            }
+        }
+        .right4{
+            width: 15rem;
+            height: 18rem;
+            background: url('../images/puzzle/right4.png')no-repeat center center/cover;
+            position: absolute;
+            top: 1rem; left: 61rem;
+            animation: r4 2s linear  both  paused;
+            
+        }
+        @keyframes r4 {
+            0%{
+                top: 1rem; left: 61rem;
+            }
+            100%{
+                top: 1rem; left: 30.9rem;
+            }
+        }
+        .right3{
+            width: 17.8rem;
+            height: 15.1rem;
+            background: url('../images/puzzle/right3.png')no-repeat center center/cover;
+            position: absolute;
+            top: 46.5rem; left:43.4rem;
+            animation: r3 3s linear forwards paused;
+           
+        }
+        @keyframes r3 {
+            0%{
+                top: 45.9rem; left:43.4rem; 
+            }
+            100%{
+                top: 46rem; left:13.2rem; 
+            }
+        }
+    }
+
+    @media screen and (max-width: 425px){
+        html{
+            font-size: 2px;
+            overflow: hidden;
+        }
+         
+        .s1{
+            justify-content: space-between;
+        }
+        .circle{
+            display: none;
+        }
+        .header_in{
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+        .s1 .fa-arrow-down{
+            display: none;
+        }
+        .clsw .swiper-pagination-horizontal{
+            width: 50rem;
+        }
+        .clsw2 .swiper-pagination-horizontal{
+            width: 50rem;
+        }
+        .s5bgitem1{
+            top: 30%; left: 15%;
+        }
+        .s5bgitem2{
+            top:50%;
+            right: 15%;
+        }
+        .s6_main{
+            display: flex;
+            justify-content: space-around;
+        }
+        .right1{
+            width: 15rem;
+            height: 18rem;
+            background: url('../images/puzzle/right1.png')no-repeat center center/cover;
+            position: absolute;
+            top: 16rem; left: 46rem;
+            animation: r1 2s linear forwards paused;
+            
+        }
+        @keyframes r1 {
+            0%{
+                top: 16rem; left: 46rem;   
+            }
+            50%{
+                top: 31rem; left: 46rem;
+            }
+            100%{
+                top: 31rem; left: 16rem; 
+            }
+        }
+        .mid4{
+            width: 15rem;
+            height: 15rem;
+            background: url('../images/puzzle/mid4.png')no-repeat center center/cover;
+            position: absolute;
+            top: 31.5rem; left: 31rem;
+            animation: m4 2s linear forwards paused;
+            
+        }
+        
+        @keyframes m4 {
+            0%{
+                top: 31.1rem; left: 31rem; 
+            }
+            50%{
+                top: 46rem; left: 31rem; 
+            }
+            100%{
+                top: 45.9rem; left: 1rem;
+            }
+    }
+    .right3{
+        width: 17.8rem;
+        height: 15.1rem;
+        background: url('../images/puzzle/right3.png')no-repeat center center/cover;
+        position: absolute;
+        top: 46.5rem; left:43.4rem;
+        animation: r3 3s linear forwards paused;
+       
+    }
+    @keyframes r3 {
+        0%{
+            top: 45.9rem; left:43.4rem; 
+        }
+        100%{
+            top: 46rem; left:13.2rem; 
+        }
+    }
+}
+    @media screen and (max-width: 320px){
+        html{
+            font-size: 1.6px;
+        }
+        .mtitle{
+           margin-right: 10rem;
+        }
+        .mid2{
+            width: 18.1rem;
+            height: 20.7rem;
+            background: url('../images/puzzle/mid2.png')no-repeat center center/100%;
+            position: absolute;
+            top: 43rem; left: 16rem;
+            animation: m2 2s linear forwards paused;
+           animation-delay: 0.2s;
+        }
+        @keyframes m2 {
+            0%{
+                top: 43rem; left: 16rem;
+            }
+            50%{
+                top: 30rem; left: 16rem;
+            }
+            100%{
+                top: 28rem; left: 1rem;
+            }
+        }
+        .right5{
+            width: 15rem;
+            height: 20.7rem;
+            background: url('../images/puzzle/right5.png')no-repeat center center/cover;
+            position: absolute;
+            top: 13.5rem; left: 76rem;
+            animation: r5 3s linear  both  paused;
+            
+        }
+        @keyframes r5 {
+            0%{
+                top: 13.7rem; left: 76.3rem;
+            }
+            50%{
+                top: 28.5rem; left: 76rem;
+            }
+            100%{
+                top: 28.1rem; left: 30.9rem;
+            }
+        }
+        .mid4{
+            width: 15rem;
+            height: 15rem;
+            background: url('../images/puzzle/mid4.png')no-repeat center center/cover;
+            position: absolute;
+            top: 31.5rem; left: 31rem;
+            animation: m4 2s linear forwards paused;
+            
+        }
+        
+        @keyframes m4 {
+            0%{
+                top: 31.1rem; left: 31rem; 
+            }
+            50%{
+                top: 46rem; left: 31rem; 
+            }
+            100%{
+                top: 45.7rem; left: 1rem;
+            }
+            
+        }
+        .right6{
+            width: 15rem;
+            height: 15rem;
+            background: url('../images/puzzle/right6.png')no-repeat center center/cover;
+            position: absolute;
+            top: 46.5rem; left: 76rem;
+            animation: r6 3s linear  both  paused;
+        }
+        @keyframes r6 {
+            from{
+                top: 46.6rem; left: 76.2rem;
+            }
+            to{
+                top: 46.1rem;
+                left: 30.9rem
+            }
+        }
+        .mid3{
+            width: 18rem;
+            height: 18rem;
+            background: url('../images/puzzle/mid3.png')no-repeat center center/cover;
+            position: absolute;
+            top: 58.3rem; left: 31rem;
+            animation: m3 2s linear forwards paused;
+            
+        }
+        @keyframes m3 {
+            0%{
+                top: 58.4rem; left: 31rem;
+            }
+            100%{
+                top: 58.1rem; left: 15.9rem;
+            }
+        }
+        .right7{
+            width: 15rem;
+            height: 17.8rem;
+            background: url('../images/puzzle/right7.png')no-repeat center center/cover;
+            position: absolute;
+            top: 58.5rem; left: 61rem;
+            animation: r7 2s linear  both  paused;
+        }
+        @keyframes r7 {
+            0%{
+                top: 58.4rem; left: 61.2rem;
+            }
+            100%{
+                top: 58.1rem;
+            left: 30.9rem;
+            }
+        }
+    }
