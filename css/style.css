@@ -1222,7 +1222,7 @@ color:#da6334;
   height: 5rem;
   border-radius: 1rem;
   display: block;
-  border: 1px solid #E9E5D5;
+  border: 0.1rem solid #E9E5D5;
   transition: all .3s;
 }
 .res_img{
@@ -1618,7 +1618,7 @@ td{
     padding: 0 2rem;
 }
 th, td {
-    border: 1px solid #E9E5D5;
+    border: 0.1rem solid #E9E5D5;
     height: 5rem;
 }
 .infotxt{
