@@ -46,10 +46,7 @@ header.on {
     position: relative;
 }
 
-.section{
-    width: 100%;
-    height: 100vh;
-}
+
 .main_logo {
     color: #E9E5D5;
     position: relative;
@@ -1460,15 +1457,15 @@ color:#da6334;
     animation-play-state: running;
 }
 .s4mtitle {
-    width: 55rem;
-    height: 10rem;
+    /* width: 55rem;
+    height: 10rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .s4tit_ml{
 position: relative;
-width: 70rem;
+/* width: 70rem; */
 text-align: center;
 }
 .s4mtit_m{
@@ -1480,12 +1477,7 @@ text-align: center;
     top: 0; left: 1.9rem;
     -webkit-text-stroke: 1px #E9E5D5;
 }
-.s4titline {
-    width: 70rem;
-    height: 1rem;
-    background-color: #E9E5D5;
-    display: block;
-}
+
 
 .clsw{
     width: 180rem;
@@ -2562,7 +2554,6 @@ th, td {
     opacity: 0;
 }
 .s6tit_ml{
-    width: 100rem;
     position: relative;
     text-align: center;
     }

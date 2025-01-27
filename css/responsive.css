@@ -518,4 +518,7 @@
             left: 30.9rem;
             }
         }
+        .s6_main{
+            justify-content: space-between;  
+        }
     }
